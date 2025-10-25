@@ -101,9 +101,9 @@ healthy:
     just test
 
 sync:
-    {{UV}} sync
+    @{{UV}} sync
 
 test:
-    pytest *test.py
+    @pytest --cov=. *test.py
     @echo "✅ Tests passed!"
     @echo
