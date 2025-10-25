@@ -1,0 +1,10 @@
+[project]
+name = "leet"
+version = "0.1.0"
+description = "Practicing stuff"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipython>=8.18.1",
+    "pytest>=8.4.2",
+]
