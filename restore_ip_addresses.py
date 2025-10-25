@@ -118,7 +118,7 @@ def is_valid_octet(string: str) -> bool:
         number = int(string)
         return number >= 0 and number <= 255
 
-    except Exception:
+    except ValueError:
         return False
 
 
